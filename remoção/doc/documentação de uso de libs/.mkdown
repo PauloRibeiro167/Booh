@@ -1,0 +1,98 @@
+Documentação das Gems
+
+bootsnap
+Função: Acelera o tempo de boot do Rails e melhora o desempenho do aplicativo.
+Documentação: Bootsnap
+
+brakeman
+Função: Scanner de segurança estática para aplicações Ruby on Rails.
+Documentação: Brakeman
+
+capybara
+Função: Ferramenta de teste de integração para simular como um usuário interage com a aplicação.
+Documentação: Capybara
+
+debug
+Função: Ferramenta de depuração para Ruby.
+Documentação: Debug
+
+devise
+Função: Solução flexível de autenticação para Rails.
+Documentação: Devise
+
+importmap-rails
+Função: Permite gerenciar dependências JavaScript no Rails sem precisar de um bundler como Webpack.
+Documentação: Importmap for Rails
+
+jbuilder
+Função: Gera templates JSON para APIs no Rails.
+Documentação: Jbuilder
+
+kamal
+Função: Ferramenta de deploy para aplicações Rails.
+Documentação: Kamal
+
+omniauth-google-oauth2
+Função: Middleware para autenticação via Google OAuth2.
+Documentação: OmniAuth Google OAuth2
+
+omniauth-facebook
+Função: Middleware para autenticação via Facebook OAuth.
+Documentação: OmniAuth Facebook
+
+puma
+Função: Servidor de aplicação HTTP para Ruby/Rails.
+Documentação: Puma
+
+rails
+Função: Framework de desenvolvimento web em Ruby.
+Documentação: Ruby on Rails
+
+rubocop-rails-omakase
+Função: Conjunto de regras de estilo e linter para Rails.
+Documentação: RuboCop Rails
+
+selenium-webdriver
+Função: Ferramenta para automação de navegadores web.
+Documentação: Selenium WebDriver
+
+solid_cache
+Função: Cache para aplicações Rails.
+Documentação: Solid Cache
+
+solid_cable
+Função: Implementação de ActionCable para WebSockets em Rails.
+Documentação: Solid Cable
+
+solid_queue
+Função: Ferramenta de enfileiramento de tarefas para Rails.
+Documentação: Solid Queue
+
+sqlite3
+Função: Banco de dados SQL leve.
+Documentação: SQLite3
+
+stimulus-rails
+Função: Integração do StimulusJS com Rails.
+Documentação: Stimulus Rails
+
+tailwindcss-rails
+Função: Integração do Tailwind CSS com Rails.
+Documentação: TailwindCSS Rails
+
+thruster
+Função: Ferramenta de deploy para aplicações Rails.
+Documentação: Thruster
+
+turbo-rails
+Função: Integração do Turbo (Hotwire) com Rails para melhorar a experiência do usuário.
+Documentação: Turbo Rails
+
+tzinfo-data
+Função: Dados de fuso horário para Ruby.
+Documentação: TZInfo Data
+
+web-console
+Função: Console interativo no navegador para Rails.
+Documentação: Web Console
+Essa documentação fornece uma visão geral das gems que você está usando e suas funções principais. Para mais detalhes, consulte a documentação oficial de cada gem.

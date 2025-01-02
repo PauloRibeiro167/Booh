@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Layout</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><%= link_to 'Home', root_path %></li>
+                <li><%= link_to 'Profile', user_profile_path %></li>
+                <li><%= link_to 'Settings', edit_user_registration_path %></li>
+                <li><%= link_to 'Logout', destroy_user_session_path, method: :delete %></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <%= yield %>
+    </main>
+
+    <footer>
+        <p>&copy; <%= Time.now.year %> Your Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>

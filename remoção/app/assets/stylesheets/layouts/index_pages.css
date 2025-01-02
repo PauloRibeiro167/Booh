@@ -1,0 +1,14 @@
+/* Adicione suas estilizações específicas aqui */
+body {
+  background-color: #9c0f0f;
+}
+
+.header {
+  background-color: #333;
+  color: #8b1515;
+  padding: 10px;
+}
+
+.main-content {
+  padding: 20px;
+}

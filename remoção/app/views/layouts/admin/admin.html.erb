@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'admin', media: 'all' %>
+    <%= javascript_pack_tag 'admin' %>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><%= link_to 'Dashboard', admin_dashboard_path %></li>
+                <li><%= link_to 'Users', admin_users_path %></li>
+                <li><%= link_to 'Settings', admin_settings_path %></li>
+                <li><%= link_to 'Logout', destroy_user_session_path, method: :delete %></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <%= yield %>
+    </main>
+    <footer>
+        <p>&copy; <%= Time.now.year %> Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
